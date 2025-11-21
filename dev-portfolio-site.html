@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Oyebode - GHL Specialist & Automation Architect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Dev.portfolio.css">
+    <link rel="icon" type="image/png" href="img/logo.png" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">OE</div>
+        <button class="mobile-menu-btn" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact" class="contact-btn">BOOK A CALL</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <div class="hero-content">
+                <h2>GHL Specialist & Automation Architect</h2>
+                <h1>Oyebode Emmanuel</h1>
+                <p class="subtitle">Helping 6-7 Figure Agencies Scale Through Smart Automation & Custom CRM Solutions</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">35+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">600+</div>
+                        <div class="stat-label">Hours Automated</div>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="mailto:mmanuelcollins@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/africasimo5-cyber" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/oyebode-emmanuel-6bb936242" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://wa.me/2349161037882" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <!-- TODO: ADD YOUR PROFESSIONAL HEADSHOT HERE -->
+            <img src="img/me-profile.png" 
+                 alt="Emmanuel Oyebode - GHL Specialist" 
+                 class="hero-image">
+            <!-- Instructions: Replace with high-quality professional photo (recommended: 800x800px minimum) -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-left">
+                <h2>ABOUT ME</h2>
+                <p>
+                    I'm <strong>Oyebode Emmanuel</strong>, a GHL Certified Specialist and Software Engineer with a mission: <em>helping ambitious businesses eliminate operational bottlenecks and scale without burning out.</em>
+                </p>
+                <p>
+                    With 3+ years of experience in software development and deep expertise in GoHighLevel, I don't just build systems, I architect growth engines. My approach combines technical precision with business strategy to deliver automation that actually moves the needle.
+                </p>
+                <p>
+                    <strong>What sets me apart?</strong> I speak both languages, technical and business. Whether you need a complex API integration or a simple workflow that saves 10 hours a week, I ensure the solution aligns with your revenue goals.
+                </p>
+                <div class="certifications">
+                    <h4><i class="fas fa-award"></i> Certifications & Training</h4>
+                    <ul>
+                        <li>GoHighLevel Certified Specialist</li>
+                        <li>Advanced JavaScript & Python Development</li>
+                        <li>API Integration & Automation Expert</li>
+                        <!-- TODO: Add your actual certifications here -->
+                    </ul>
+                </div>
+            </div>
+            <div class="about-right">
+                <!-- TODO: ADD A PROFESSIONAL PHOTO OR WORKSPACE IMAGE -->
+                <img src="placeholder-workspace.jpg" alt="Emmanuel's Workspace" class="about-image">
+                <!-- Instructions: Add a photo of you working or a professional headshot (recommended: 600x600px) -->
+                <div class="about-highlight">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"I don't just automate tasks—I eliminate the chaos that's holding your business back."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <h2 class="section-title">SERVICES</h2>
+        <p class="section-subtitle">Comprehensive Solutions to Scale Your Business</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="badge">MOST POPULAR</div>
+                <div class="service-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>GHL Setup & Migration</h3>
+                <p>Complete CRM implementation from scratch or seamless migration from other platforms. Includes custom pipeline setup, automated workflows, and team training.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Custom pipeline configuration</li>
+                    <li><i class="fas fa-check"></i> Data migration & cleanup</li>
+                    <li><i class="fas fa-check"></i> Team onboarding & training</li>
+                </ul>
+            </div>
+
+            <div class="service-card featured">
+                <div class="service-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Landing Pages & Funnels</h3>
+                <p>High-converting pages designed and built inside GHL. Mobile-responsive, fast-loading, and optimized for conversions.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Custom page design</li>
+                    <li><i class="fas fa-check"></i> Sales funnel architecture</li>
+                    <li><i class="fas fa-check"></i> A/B testing setup</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3>Workflow Automation</h3>
+                <p>Eliminate repetitive tasks with intelligent automation. From lead nurturing to client onboarding—fully automated, fully optimized.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Lead capture & nurturing flows</li>
+                    <li><i class="fas fa-check"></i> Appointment booking automation</li>
+                    <li><i class="fas fa-check"></i> Follow-up sequences</li>
+                </ul>
+            </div>
+
+            <div class="service-card featured">
+                <div class="service-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>Custom Integrations</h3>
+                <p>Connect GHL with any tool in your tech stack. API integrations, webhooks, Zapier/Make connections—if it has an API, I can integrate it.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Third-party API connections</li>
+                    <li><i class="fas fa-check"></i> Custom webhook development</li>
+                    <li><i class="fas fa-check"></i> Zapier/Make.com workflows</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI Integration</h3>
+                <p>Supercharge your automation with AI-powered chatbots, intelligent lead qualification, and automated content generation.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> AI chatbot implementation</li>
+                    <li><i class="fas fa-check"></i> Intelligent lead scoring</li>
+                    <li><i class="fas fa-check"></i> Automated response systems</li>
+                </ul>
+            </div>
+
+            <div class="service-card featured">
+                <div class="service-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Ongoing Support</h3>
+                <p>Monthly retainer packages for continuous optimization, troubleshooting, and system improvements as your business grows.</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Priority support access</li>
+                    <li><i class="fas fa-check"></i> Monthly optimization reviews</li>
+                    <li><i class="fas fa-check"></i> System updates & maintenance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <h2 class="section-title">TECHNICAL EXPERTISE</h2>
+        
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3><i class="fas fa-rocket"></i> CRM & AUTOMATION</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #00a3e0;">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="skill-name">GoHighLevel</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #ff6b6b;">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="skill-name">Kajabi</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #ff6a00;">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="skill-name">Zapier</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #6c5ce7;">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="skill-name">Make.com</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3><i class="fas fa-code"></i> DEVELOPMENT</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #f0db4f;">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #306998;">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="skill-name">Python</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 87%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #61dbfb;">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="skill-name">React</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #68a063;">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="skill-name">Node.js</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 83%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3><i class="fas fa-tools"></i> TOOLS & PLATFORMS</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #f05032;">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="skill-name">Git/GitHub</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #0db7ed;">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="skill-name">Docker</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #ff9900;">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <div class="skill-name">AWS</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #336791;">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-name">SQL/NoSQL</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3><i class="fas fa-brain"></i> AI & INTEGRATION</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #10a37f;">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="skill-name">OpenAI API</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #9c27b0;">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="skill-name">API Integration</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 93%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #00bcd4;">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="skill-name">Webhooks</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 91%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon" style="color: #ff5722;">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="skill-name">Chatbot Dev</div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 86%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects/Portfolio Section -->
+    <section class="projects-section" id="projects">
+        <h2 class="section-title">FEATURED PROJECTS</h2>
+        <p class="section-subtitle">Real Results for Real Businesses</p>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <!-- TODO: ADD PROJECT SCREENSHOT HERE -->
+                    <img src="project-placeholder-3.jpg" alt="Project 3">
+                    <!-- Instructions: Add screenshot of your project -->
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">GoHighLevel</span>
+                        <span class="tag">Email Marketing</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Others</span>
+                    </div>
+                    <h3>GoHighLevel CRM Migration & System Rebuild</h3>
+                    <p class="project-description">
+                        Migrated an outdated client management system into a fully optimized GoHighLevel environment. The project included data transfer, pipeline reconstruction, workflow automation, custom dashboards, and a streamlined communication system. The new setup significantly improved operational efficiency, onboarding speed, and client tracking accuracy.
+                    </p>
+                    <div class="project-results">
+                        <div class="result-item">
+                            <span class="result-number">$10K+</span>
+                            <span class="result-label">Monthly Revenue</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-number">69%</span>
+                            <span class="result-label">Customer Retention</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <strong>Tech Stack:</strong> GoHighLevel, Stripe
+                    </div>
+                    <a href="#contact" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <!-- TODO: ADD PROJECT SCREENSHOT HERE -->
+                    <img src="img/Test2.png" alt="Project 2">
+                    <!-- Instructions: Add screenshot of your project -->
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">AI Integration</span>
+                        <span class="tag">Email Marketing</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                    <h3>AI-Powered ROI Calculator for E-commerce — AI1team.com</h3>
+                    <p class="project-description">
+                        For AI1team.com, I helped design and develop their ROI+™ tool an AI-driven calculator built for e-commerce businesses. This project involved building a sleek, interactive web interface where users input key business metrics (like annual revenue, inventory value, SKU count, and operational costs) and instantly receive actionable insights about their potential AI-driven savings and return on investment. The tool enables businesses to estimate inventory waste reduction, “dead stock” cost savings, and profitability improvement using predictive AI accuracy levels. My role included front-end development of the calculator form, dynamic result computation, and email integration for PDF report delivery.
+                    </p>
+                    <div class="project-results">
+                        <div class="result-item">
+                            <span class="result-number">3x</span>
+                            <span class="result-label">Lead Response Speed</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-number">78%</span>
+                            <span class="result-label">Client Booking Rate</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, Python, Custom Integration, Express.js
+                    </div>
+                    <a href="#contact" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <!-- TODO: ADD PROJECT SCREENSHOT HERE -->
+                    <img src="img/Project-2.png" alt="Project 1">
+                    <!-- Instructions: Add screenshot of your project (recommended: 1200x800px) -->
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span class="tag">GoHighLevel</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Funnels Design</span>
+                        <span class="tag">Email Marketing</span>
+                    </div>
+                    <h3>Ads-Buying Income Blueprint Webinar</h3>
+                    <p class="project-description">
+                        Designed to empower beginners to launch a high-income career in social media ads management, MediaBuyingWebinar.com is a two-day live training led by Damilare Moronkeji. In this project, I led the development of a streamlined registration system, built a high-converting landing page, and integrated email sequencing to drive sign-ups and engagement. The webinar teaches participants how to earn £5,000–£15,000/month through media buying even with no prior experience by giving them a clear roadmap for building a scalable ads management business
+                    </p>
+                    <div class="project-results">
+                        <div class="result-item">
+                            <span class="result-number">90%</span>
+                            <span class="result-label">Conversion Increase</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-number">10hrs</span>
+                            <span class="result-label">Weekly Time Saved</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <strong>Tech Stack:</strong> GoHighLevel, Stripe API, Zapier, Custom Webhooks
+                    </div>
+                    <a href="#contact" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">CLIENT TESTIMONIALS</h2>
+        <p class="section-subtitle">Don't Just Take My Word For It</p>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">
+                        <!-- TODO: ADD CLIENT PHOTO OR LOGO -->
+                        <img src="img/test-1.jpg" alt="Client 1">
+                        <!-- Instructions: Add client photo or company logo (300x300px) -->
+                    </div>
+                    <div class="testimonial-info">
+                        <h4>Robert Mrak</h4>
+                        <p>CEO, AI1 Marketing Agency</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>"Working with Emmanuel was a game-changer. His GHL expertise and ability to understand our business needs resulted in a system that's scaled with us from 8 to 50+ clients."</p>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">
+                        <!-- TODO: ADD CLIENT PHOTO OR LOGO -->
+                        <img src="img/Test2.png" alt="Client 2">
+                    </div>
+                    <div class="testimonial-info">
+                        <h4>AI1TEAM AGENCY</h4>
+                        <p>AI1 Team</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>"Emmanuel completely transformed our client onboarding process. What used to take us 3 days now happens automatically in under an hour. The ROI was immediate."</p>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">
+                        <!-- TODO: ADD CLIENT PHOTO OR LOGO -->
+                        <img src="img/test-3.png" alt="Client 3">
+                    </div>
+                    <div class="testimonial-info">
+                        <h4>Damilare</h4>
+                        <p>Paid Media Buyer, TouchPointdc</p>
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left quote-icon"></i>
+                    <p>"Not only is Emmanuel technically brilliant, but he genuinely cares about results. He doesn't just build, he optimizes until the numbers prove success."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <h2 class="section-title">HOW I WORK</h2>
+        <p class="section-subtitle">A Proven Process for Guaranteed Results</p>
+        
+        <div class="process-timeline">
+            <div class="process-step">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-comments"></i> Discovery Call</h3>
+                    <p>We discuss your business goals, current challenges, and identify automation opportunities that will deliver the biggest impact.</p>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-clipboard-list"></i> Strategy & Planning</h3>
+                    <p>I create a detailed roadmap with timelines, deliverables, and expected outcomes. You'll know exactly what to expect before we start.</p>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-code"></i> Development & Testing</h3>
+                    <p>I build, test, and refine your solution with regular check-ins. You're involved every step of the way no surprises.</p>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-rocket"></i> Launch & Training</h3>
+                    <p>Your system goes live with complete documentation and training for your team. I ensure everyone is confident using the new tools.</p>
+                </div>
+            </div>
+            
+            <div class="process-step">
+                <div class="step-number">05</div>
+                <div class="step-content">
+                    <h3><i class="fas fa-chart-line"></i> Optimization & Support</h3>
+                    <p>I monitor performance, gather feedback, and make improvements. Your success is my success, I'm invested in your long-term growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">LET'S TALK</h2>
+        <p class="contact-intro">
+            Ready to eliminate operational chaos and scale your business with smart automation? 
+            <strong>Book a free 30-minute strategy call</strong> and let's discuss how I can help.
+        </p>
+
+        <div class="contact-methods">
+            <div class="contact-method">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Schedule a Call</h3>
+                <p>Book directly on my calendar</p>
+                <a href="https://calendly.com/mmanuelcollins/30min" class="method-link" target="_blank">Book Now →</a>
+                <!-- TODO: Replace # with your Calendly or booking link -->
+            </div>
+            
+            <div class="contact-method">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Me</h3>
+                <p>For project inquiries</p>
+                <a href="mailto:mmanuelcollins@gmail.com" class="method-link">mmanuelcollins@gmail.com</a>
+            </div>
+            
+            <div class="contact-method">
+                <i class="fab fa-whatsapp"></i>
+                <h3>WhatsApp</h3>
+                <p>Quick questions? Text me</p>
+                <a href="https://wa.me/2349161037882" class="method-link" target="_blank">+234 916 103 7882</a>
+            </div>
+        </div>
+
+        <div class="contact-divider">
+            <span>OR SEND A MESSAGE</span>
+        </div>
+        
+        <!-- <form action="https://formspree.io/f/movpvewd" method="POST"class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name*" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email*" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Select Service*</option>
+                        <option value="ghl-setup">GHL Setup & Migration</option>
+                        <option value="automation">Workflow Automation</option>
+                        <option value="integration">Custom Integrations</option>
+                        <option value="web-dev">Web Development</option>
+                        <option value="ai-integration">AI Integration</option>
+                        <option value="consulting">Consulting</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Tell me about your project and goals*" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                <span>SEND MESSAGE</span>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </form> -->
+        <form action="https://formspree.io/f/movpvewd" method="POST" class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name*" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email*" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <select name="service" required>
+                        <option value="">Select Service*</option>
+                        <option value="ghl-setup">GHL Setup & Migration</option>
+                        <option value="automation">Workflow Automation</option>
+                        <option value="integration">Custom Integrations</option>
+                        <option value="web-dev">Web Development</option>
+                        <option value="ai-integration">AI Integration</option>
+                        <option value="consulting">Consulting</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <textarea name="message" placeholder="Tell me about your project and goals*" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <span>SEND MESSAGE</span>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+
+
+        <div class="contact-footer">
+            <p><i class="fas fa-clock"></i> Average response time: <strong>Within 30 minutes</strong></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">OE</div>
+                <p>Building automation systems that scale businesses without the chaos.</p>
+                <div class="footer-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Available Worldwide | Based in Nigeria</span>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <a href="#services">GHL Setup</a>
+                    <a href="#services">Automation</a>
+                    <a href="#services">Integrations</a>
+                    <a href="#services">AI Solutions</a>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <a href="https://www.linkedin.com/in/oyebode-emmanuel-6bb936242" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/africasimo5-cyber" target="_blank">GitHub</a>
+                    <a href="mailto:mmanuelcollins@gmail.com">Email</a>
+                    <a href="https://wa.me/2349161037882" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+            <div class="copyright">
+                © 2025 Oyebode Emmanuel. All Rights Reserved.
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/oyebanjipomile.emmanuel" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/oyebode-emmanuel-6bb936242" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/manue_lgdk" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/africasimo5-cyber" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="back-to-top" onclick="scrollToTop()">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="animated-updated-dev.js"></script>
+</body>
+</html
