@@ -452,7 +452,7 @@ nav {
 }
 
 .skills-category {
-    overflow: hidden    ;
+    overflow: hidden;
     margin-bottom: 60px;
     width: 100%;
     max-width: 1200px;
@@ -476,12 +476,22 @@ nav {
     color: var(--accent-color);
 }
 
-.skills-grid {
-    /* display: grid; */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.skills-marquee {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.skills-track {
+    display: flex;
+    width: max-content;
     gap: 30px;
-    animation: scroll 25s linear infinite;
+    animation: scroll 40s linear infinite;
+}
+
+.skills-track:hover {
+    animation-play-state: paused;
 }
 
 @keyframes scroll {
@@ -489,7 +499,7 @@ nav {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(calc(-50% - 15px));
     }
 }
 
@@ -500,6 +510,8 @@ nav {
     text-align: center;
     transition: var(--transition);
     border: 2px solid transparent;
+    min-width: 250px;
+    flex-shrink: 0;
 }
 
 .skill-item:hover {
@@ -1321,9 +1333,8 @@ section {
         grid-template-columns: 1fr;
     }
 
-    .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+    .skills-track {
+        animation-duration: 25s;
     }
 
     .form-row {
@@ -1385,8 +1396,8 @@ section {
         letter-spacing: 2px;
     }
 
-    .skills-grid {
-        grid-template-columns: 1fr;
+    .skills-track {
+        animation-duration: 20s;
     }
 
     .service-card,
